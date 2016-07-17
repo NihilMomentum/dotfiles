@@ -23,15 +23,15 @@ bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+ unmute
 bindsym XF86AudioLowerVolume exec amixer -q set Master 5%- unmute
 bindsym XF86AudioMute exec amixer -q set Master toggle
 
-# SET WINDOW COLORS
-set $bg-color            #D64937
+# SET WINDOW COLORS d64937
+set $bg-color            #CC00FF
 set $inactive-bg-color   #222222
 set $text-color          #FFFFFF
 set $inactive-text-color #303030
 set $urgent-bg-color     #303030
  
 # WINDOW COLORS
-#                       border              background         text                 indicator
+#                       border              background         text                 indicator 
 client.focused          $bg-color           $bg-color          $text-color          #268BD2
 client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $inactive-bg-color
 client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color $inactive-bg-color
@@ -69,7 +69,7 @@ bindsym $mod+Return exec xfce4-terminal
 bindsym $mod+q kill
 
 # Start rofi (a program launcher)
-bindsym $mod+r exec rofi -show run
+bindsym $mod+r exec rofi -show run -font "Ubuntu Bold 14"
 
 # Lock computer
 bindsym $mod+x exec i3lock-fancy
