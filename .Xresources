@@ -12,4 +12,3 @@ rofi.color-window: argb:80000000, argb:80000000, #ff0000
 rofi.color-normal: argb:00000000, #ea1646, argb:00000000, #ea1646, #000000
 rofi.color-active: argb:00000000, #00ff00, argb:00000000, #16ea46, #000000
 rofi.color-urgent: argb:00000000, #268bd2, argb:00000000, #ce24ce, #000000
-
